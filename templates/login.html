@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Login </title>
+</head>
+<body background="https://www.wallpaperup.com/uploads/wallpapers/2013/01/11/28960/8f1375082acf35135a5a2504963922ae-700.jpg">
+
+	<h1> Login </h1>
+	<br> <hr> <br>
+	<form action='' method="post">
+		<input type="text" name="username" placeholder="Username" value="{{ request.formusername }}">
+		<input type="password" name="password" placeholder="Password" value="{{ request.formpassword }}">
+		<input class='btn btn-default' type="submit" name="Login">
+	</form>
+
+	<br><hr>
+	<h3> <i> Hint: Username = Your name Password='admin' </i></h3>
+
+	{% if error %}
+		<h2> <strong>ERROR: </strong> {{ error }}
+	{% endif %}
+
+</body>
+</html>

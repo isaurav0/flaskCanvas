@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Eyes</title>
+	<meta name="viewport" content="width=device-width" initial-scale="1.0">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='spongebob.css') }}">
+	<style>
+	    #texts{
+	        visibility: hidden;
+	    }
+	</style>
+</head>
+<body>
+    <canvas id='canvas'></canvas>
+	<script type="text/javascript" src="{{ url_for('static', filename='spongebob.js') }}"></script>
+	<img src="{{ url_for('static', filename='spongebobeyes.png') }}">
+
+	<div id='texts'>
+		If you ask me, coolest yellow guy in the whole world is Spongebob Squarepants. This guy is yellow as hell. You see, not every character can be this cool being yellow and all. But this guy really kills being yellow. I mean, I dont know what I mean but I mean it.
+	</div>
+
+    <img id='logo' src='https://upload.wikimedia.org/wikipedia/en/thumb/2/24/SpongeBob_SquarePants_logo.svg/1200px-SpongeBob_SquarePants_logo.svg.png'>
+
+	<a href='/index'><img id='goback' src="https://fontmeme.com/permalink/190122/f4dbc05f44b59b0cc7f9bb9c9258d6b1.png"></a>
+
+</body>
+</html>

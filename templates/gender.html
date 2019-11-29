@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gender</title>
+</head>
+
+	{% if choice == 'Male' %}
+	    <body background='https://i.pinimg.com/originals/6b/70/10/6b701038bc5312ebdacd21359c51871a.jpg'>
+		    <font color='white'>
+		    <h1>Keep those balls in air.</h1>
+		    	<br>
+	        <hr color='red'>
+	        <a href="/game">Click here</a> to go to click on those radio buttons again.
+	        <br>
+            <br>
+	        <a href='/profile'>Click here </a> to go to your profile.
+	        </font>
+        </body>
+
+
+	{% elif choice == 'Female' %}
+		<body background='https://www.hdwallpapers.in/download/wall_e_eve-wide.jpg'>
+			<h1>Hey, have you watched <b>Push-E</b>?</h1>
+			 <hr color='red'>
+	        <a href="/game">Click here</a> to go to click on those radio buttons again.
+	        <br>
+            <br>
+	        <a href='/profile'>Click here </a> to go to your profile.
+	    </body>
+	{% else %}
+
+		<body background='https://rukminim1.flixcart.com/image/704/704/poster/f/g/h/music-queen-band-music-united-kingdom-periodic-table-of-elements-original-imaek7ue5emqb76p.jpeg?q=70'></body>
+	        <h1><b><i> <font color='red'> Freddie says hello. </font></i></b></h1>
+	    	 <hr color='red'>
+	        <a href="/game">Click here</a> to go to click on those radio buttons again.
+	        <br>
+            <br>
+	        <a href='/profile'>Click here </a> to go to your profile.
+	    </body>
+	{% endif %}
+
+
+</html>

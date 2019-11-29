@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{{ user_name }}</title>
+</head>
+<body background="https://taxischiphol-airport.com/5426184.jpg">
+
+<h1> Hello <font color='orange'> {{ user_name }} </font> </h1>
+
+<br>
+<b>
+
+{% for message in get_flashed_messages() %}
+	{{ message }}
+{% endfor %}
+</b>
+<br>
+
+<hr>
+
+
+<hr>
+<a href="/game">Click here </a>to click radio buttons.
+
+<a href="/logout"> Click here </a> to log out.
+<br>
+</body>
+</html>

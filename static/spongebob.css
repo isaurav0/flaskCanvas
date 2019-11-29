@@ -1,0 +1,50 @@
+body
+{
+	margin: 0px;
+	background-color: yellow;
+}
+
+canvas
+{
+	position: absolute;
+	border: 0px solid black;
+	z-index: 2;
+}
+
+img
+{
+	position: absolute;
+	top: 200px;
+	left: 500px;
+	z-index: 1;
+}
+
+
+div
+{
+	position: absolute;
+	font-family: courier;
+	font-size: 30px;
+	top: 300px;
+	left: 20px;
+	margin-left: 10px;
+	margin-right: 1100px;
+	text-align: justify;
+}
+
+#logo
+{
+	position: absolute;
+	top: 10px;
+	left: 50px;
+	height: 250px;
+	width: 600px;
+}
+
+a img
+{
+	position: absolute;
+	left: 1300px;
+	top: 100px;
+	z-index: 10;
+}
